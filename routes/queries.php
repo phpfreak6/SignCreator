@@ -1,0 +1,2 @@
+1) change flag_holder(enum('0', '1')) filed of job table with 
+ALTER TABLE `jobs`  ADD `flag_holders` ENUM('0','1','2') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT '0' COMMENT 'Flag Holders: 1->Up to 22mm,2->22-35mm'  AFTER `flag_holder`;

@@ -1,0 +1,129 @@
+.add_extra_box{
+	border-top:1px solid #ccc;
+	padding-top:10px;
+}
+.add_extra_box h5.add_txt_ex{
+	font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+/* Breadcrups CSS */
+
+.arrow-steps .step {
+	font-size: 11.5px;    
+    padding: 12px 0px 12px 22px;    
+    text-align: center;
+    color: #666;
+    cursor: default;
+    margin: 10px 1px !important;    
+	min-width: 75px;
+	float: left;
+	position: relative;
+	background-color: #d9e3f7;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+  transition: background-color 0.2s ease;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+	content: " ";
+	position: absolute;
+	top: -1px;
+	right: -17px;
+	width: 0;
+	height: 0;
+	border-top: 22px solid transparent;
+	border-bottom: 19px solid transparent;
+	border-left: 17px solid #d9e3f7;	
+	z-index: 2;
+  transition: border-color 0.2s ease;
+}
+
+.arrow-steps .step:before {
+	right: auto;
+	left: 0;
+	border-left: 17px solid #fff;	
+	z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+	border: none;
+}
+
+.arrow-steps .step:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.arrow-steps .step span {
+	position: relative;
+}
+
+/* .arrow-steps .step span:before { */
+	/* opacity: 0; */
+	/* content: "✔"; */
+	/* position: absolute; */
+	/* top: -2px; */
+	/* left: -20px; */
+/* } */
+
+.arrow-steps .step.done span:before {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s ease 0.5s;
+	-moz-transition: opacity 0.3s ease 0.5s;
+	-ms-transition: opacity 0.3s ease 0.5s;
+	transition: opacity 0.3s ease 0.5s;
+}
+
+.arrow-steps .step.current {
+	color: #fff;
+	background-color: #6ad86a;
+}
+
+.arrow-steps .step.current:after {
+	border-left: 17px solid #6ad86a;	
+}
+
+@media screen and (max-width:767px){
+
+  .add_extra_box label {
+    width: 92%;
+  }
+
+}
+.rd_start_end {
+    display: flex;
+    flex-direction: row;
+}
+.rd_start_end .form-group h5 {
+    padding-right: 15px;
+    font-size: 16px;
+    color: #545454;
+}
+.rd_start_end .form-group {
+    width: 33.3%;
+    display: flex;
+}
+.rd_start_end .form-group input {
+    width: 230px;
+}
+.rd_start_end button {
+    padding: 3px 15px;
+}
+.record_head {
+    font-size: 30px;
+    font-weight: 700;
+}
+.form-group.rep_create {
+    text-align: right;
+}
+.report_main h4 {
+    margin-bottom: 15px;
+}
+.install_pic{
+    width: 100%; 
+}

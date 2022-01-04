@@ -1,0 +1,264 @@
+.lj_img_banner1 img{
+	/* width: 100% !important; */
+	max-width:100% !important;
+	height: 297px;
+	max-height: 300px;
+}
+
+.lj_img_banner2 img, .lj_img_banner3 img{
+	
+	/* width: 100% !important; */
+	max-width:100% !important;
+	height: 216px;
+	max-height: 216px;
+}
+.mce-imagetool.mce-first+.mce-imagetool {
+    display: none;
+}
+.template img:hover{
+	opacity:0.6;
+	cursor: pointer !important;
+}
+
+.template .non-editable img:hover{
+	opacity:1;
+	cursor: auto !important;
+}
+
+.template table td{
+	border: none !important;
+	border-spacing: 0px !important;
+}
+
+/* Raine & Horne Commercial fonts */
+@font-face {
+    font-family: 'rainehorneregular';
+    src: url('../fonts/raine_horneregular.woff2') format('woff2'),
+         url('../fonts/raine_horneregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rainehorneLight';
+    src: url('../fonts/raine_hornelight.woff2') format('woff2'),
+         url('../fonts/raine_hornelight.woff') format('woff');
+	font-weight: 300;
+    font-style: normal;
+	font-display: swap;
+
+}
+
+/* Raine & Horne Commercial fonts */
+
+
+/* CW  fonts */
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+		 url('../fonts/Gotham-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Gotham-medium';
+	src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+		 url('../fonts/Gotham-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* CW fonts */
+
+
+/* AHQ fonts */
+ @font-face {
+    font-family: 'hk_groteskbold';
+    src: url('../fonts/hkgrotesk-bold.woff2') format('woff2'),
+         url('../fonts/hkgrotesk-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* AHQ fonts */
+
+
+/* ESIN fonts */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ESIN fonts */
+
+/* SAILE fonts */
+@font-face {
+	font-family: 'Arial';
+	src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+		url('../fonts/Arial-BoldMT.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Arial';
+	src: url('../fonts/Arial-Mdm.woff2') format('woff2'),
+		url('../fonts/Arial-Mdm.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+/* SAILE fonts */
+
+/* DUGAN fonts */
+@font-face {
+	font-family: 'League-Spartan';
+	src: url('../fonts/LeagueSpartan-Bold.woff2') format('woff2'),
+		url('../fonts/LeagueSpartan-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+/* DUGAN fonts */
+
+/* TRELEASE fonts */
+@font-face {
+	font-family: 'Trajan';
+	src: url('../fonts/TrajanBold.woff2') format('woff2'),
+		url('../fonts/TrajanBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+/* TRELEASE fonts */
+
+/* MW fonts */
+@font-face {
+	font-family: 'DIN';
+	src: url('../fonts/DIN-Bold.woff2') format('woff2'),
+		url('../fonts/DIN-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Helvetica Neue LT Std';
+	src: url('../fonts/HelveticaNeueLTStd-Lt.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueLTStd-Lt.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+/* MW fonts */
+
+/* WPI fonts */
+@font-face {
+	font-family: 'ArialBlack';
+	src: url('../fonts/Arial-Black.woff2') format('woff2'),
+		url('../fonts/Arial-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Proxima Nova Bl';
+	src: url('../fonts/ProximaNova-Black.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* WPI fonts */
+
+
+/* Blaze fonts */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* Blaze fonts */
+
+
+/* HC fonts */
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../fonts/SourceSansPro-Regular.woff2') format('woff2'),
+		url('../fonts/SourceSansPro-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+/* HC fonts */
+
+/* CPG fonts */
+
+@font-face {
+		font-family: 'Roboto';
+		src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+			url('../fonts/Roboto-Bold.woff') format('woff');
+		font-weight: bold;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Roboto';
+		src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+			url('../fonts/Roboto-Regular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+/* CPG fonts */
+
+
+/* JTALLEN fonts */
+
+@font-face {
+	font-family: 'Helvetica Neue LT Std';
+	src: url('../fonts/HelveticaNeueLTStd-Md.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueLTStd-Md.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Helvetica Neue LT Std';
+	src: url('../fonts/HelveticaNeueLTStd-Roman.woff2') format('woff2'),
+		url('../fonts/HelveticaNeueLTStd-Roman.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+    font-family: 'Myriad-Pro-Bold';
+    src: url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* JTALLEN fonts */
+
